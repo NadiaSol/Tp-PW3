@@ -6,16 +6,16 @@
     <%--Esto va en un UserControl--%>
     <%--Inicio User Control--%>
     <asp:Label ID="label1" runat="server" Text="Ubicación: "></asp:Label>
-    <asp:TextBox ID="txtUbicacion" runat="server" ClientIDMode="Static"></asp:TextBox>
+    <asp:TextBox ID="txtUbicacion" runat="server" ClientIDMode="Static"></asp:TextBox><br>
     
     <asp:Label ID="label2" runat="server" Text="Período Disponible: "></asp:Label>
     <asp:TextBox ID="txtFechaInicio" runat="server" ClientIDMode="Static"></asp:TextBox>
-    <asp:TextBox ID="txtFechaFin" runat="server" ClientIDMode="Static"></asp:TextBox>
+    <asp:TextBox ID="txtFechaFin" runat="server" ClientIDMode="Static"></asp:TextBox><br>
 
-    <asp:Button ID="btnFiltrar" runat="server" Text="Buscar" ClientIDMode="Static" />
+    <asp:Button ID="btnFiltrar" runat="server" Text="Buscar" ClientIDMode="Static" /><br>
     
     <%--si no se encuentran resultados mostrar mensaje "No se encontraron resultados"--%>
-    <asp:Label ID="lblResultado" runat="server"></asp:Label>
+    <asp:Label ID="lblResultado" runat="server"></asp:Label> <br>
     <%--Fin User Control--%>
 
 
