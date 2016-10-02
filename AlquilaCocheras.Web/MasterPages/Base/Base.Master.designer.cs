@@ -38,5 +38,14 @@ namespace AlquilaCocheras.Web.MasterPages {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.ContentPlaceHolder ContentPlaceHolder_Principal_Base;
+        
+        /// <summary>
+        /// ucFooter control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::AlquilaCocheras.Web.userControls.ucFooter ucFooter;
     }
 }

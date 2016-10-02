@@ -1,5 +1,8 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Base.master.cs" Inherits="AlquilaCocheras.Web.MasterPages.Base" %>
 
+<%@ Register Src="~/userControls/ucFooter.ascx" TagPrefix="uc1" TagName="ucFooter" %>
+
+
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -12,7 +15,7 @@
     <form id="form1" runat="server">
     <div>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder_Principal_Base" runat="server">
-        
+            <uc1:ucFooter runat="server" id="ucFooter" />
         </asp:ContentPlaceHolder>
     </div>
     </form>
