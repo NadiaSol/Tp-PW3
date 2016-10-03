@@ -5,16 +5,11 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace AlquilaCocheras.Web.propietarios
+namespace AlquilaCocheras.Web.userControls
 {
-    public partial class perfil : System.Web.UI.Page
+    public partial class ucPerfil : System.Web.UI.UserControl
     {
         protected void Page_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void btnActualizar_Click(object sender, EventArgs e)
         {
 
         }
