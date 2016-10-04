@@ -1,3 +1,11 @@
+<<<<<<< HEAD
 .vs/config/applicationhost.config
 AlquilaCocheras.Web/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
 AlquilaCocheras.Web/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+=======
+.vs/
+AlquilaCocheras.Web/bin
+AlquilaCocheras.Web/obj
+~$correcciones20162C.xlsx
+~$guimiento del proyecto.doc
+>>>>>>> origin/master

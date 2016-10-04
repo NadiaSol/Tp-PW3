@@ -1,9 +1,26 @@
 ﻿<%@ Master Language="C#" MasterPageFile="~/MasterPages/Base/Base.Master" AutoEventWireup="true" CodeBehind="Anonimo.master.cs" Inherits="AlquilaCocheras.Web.MasterPages.Anonimo" %>
+<%@ Register Src="~/userControls/ucBuscadorCocheras.ascx" TagPrefix="uc1" TagName="ucBuscadorCocheras" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head_Base" runat="server">
     <asp:ContentPlaceHolder ID="ContentPlaceHolder_Head" runat="server">
     </asp:ContentPlaceHolder>    
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder_Principal_Base" runat="server">
+<<<<<<< HEAD
      <asp:ContentPlaceHolder ID="ContentPlaceHolder_Principal" runat="server">
     </asp:ContentPlaceHolder>    
+=======
+         <div>
+                <li class="">
+                    <a href="/default.aspx"><i class=""></i> <span class="nav-label">Inicio</span> </a>
+                </li>
+                <li class="">
+                    <a href="/login.aspx"><i class=""></i> <span class="nav-label">Login</span></a>
+                </li> 
+                <li class="">
+                    <a href="/registracion.aspx"><i class=""></i> <span class="nav-label">Registración</span></a>
+                </li>
+            </div>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder_Principal" runat="server">
+    </asp:ContentPlaceHolder>   
+>>>>>>> origin/master
 </asp:Content>
