@@ -14,5 +14,7 @@
                 <li class="">
                     <a href="/registracion.aspx"><i class=""></i> <span class="nav-label">Registración</span></a>
                 </li>
-            </div>    
+            </div>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder_Principal" runat="server">
+    </asp:ContentPlaceHolder>   
 </asp:Content>

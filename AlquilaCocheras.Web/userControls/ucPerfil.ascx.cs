@@ -44,9 +44,5 @@ namespace AlquilaCocheras.Web.userControls
             get { return lblResultado; }
             set { lblResultado = TextoLabel; }
         }
-        public TextBoxprotected void Page_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }

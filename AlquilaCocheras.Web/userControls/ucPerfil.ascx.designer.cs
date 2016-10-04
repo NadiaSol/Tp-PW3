@@ -121,6 +121,33 @@ namespace AlquilaCocheras.Web.userControls {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator validatorPass1;
         
         /// <summary>
+        /// validationMayuscula control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator validationMayuscula;
+        
+        /// <summary>
+        /// validationNumber control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator validationNumber;
+        
+        /// <summary>
+        /// validatorMinLength control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator validatorMinLength;
+        
+        /// <summary>
         /// label5 control.
         /// </summary>
         /// <remarks>

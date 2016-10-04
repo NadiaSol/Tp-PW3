@@ -21,14 +21,17 @@
     <asp:TextBox ID="txtContrasenia" runat="server" TextMode="Password" ClientIDMode="Static"></asp:TextBox>
 
     <asp:RequiredFieldValidator ID="validatorPass1" runat="server" ControlToValidate="txtContrasenia" Display="Dynamic" ErrorMessage="Campo Requerido!" ForeColor="Red"></asp:RequiredFieldValidator>
-    &nbsp;TO DO: regex de contraseña&nbsp;<br />
+    &nbsp;<asp:RegularExpressionValidator ID="validationMayuscula" runat="server" ControlToValidate="txtContrasenia" Display="Dynamic" ErrorMessage="Debe comenzar con mayuscula" ForeColor="Red" ValidationExpression="^[A-Z].*"></asp:RegularExpressionValidator>
+&nbsp;<asp:RegularExpressionValidator ID="validationNumber" runat="server" ControlToValidate="txtContrasenia" Display="Dynamic" ErrorMessage="Debe tener al menos 1 número" ForeColor="Red" ValidationExpression="^(?=.*[0-9]).*"></asp:RegularExpressionValidator>
+&nbsp;<asp:RegularExpressionValidator ID="validatorMinLength" runat="server" ControlToValidate="txtContrasenia" Display="Dynamic" ErrorMessage="Minimo 8 caracteres" ForeColor="Red" ValidationExpression="^\w{8,}$"></asp:RegularExpressionValidator>
+<br />
 
     <asp:Label ID="label5" runat="server" Text="Confirme Contraseña: "></asp:Label>
     <asp:TextBox ID="txtConfContrasenia" runat="server" TextMode="Password" ClientIDMode="Static"></asp:TextBox>
 
     <asp:RequiredFieldValidator ID="validatorPass2" runat="server" ControlToValidate="txtConfContrasenia" Display="Dynamic" ErrorMessage="Campo Requerido!" ForeColor="Red"></asp:RequiredFieldValidator>
 
-    &nbsp;<asp:CompareValidator ID="validatorPasswords" runat="server" ControlToCompare="txtContrasenia" ControlToValidate="txtConfContrasenia" ErrorMessage="Las Contraseñas NO coinciden!" ForeColor="Red"></asp:CompareValidator>
+    &nbsp;<asp:CompareValidator ID="validatorPasswords" runat="server" ControlToCompare="txtContrasenia" ControlToValidate="txtConfContrasenia" ErrorMessage="Las Contraseñas NO coinciden!" ForeColor="Red" Display="Dynamic"></asp:CompareValidator>
 <br />
 <br />
 Tipo de Usuario:

@@ -14,5 +14,7 @@
                 <li class="">
                     <a href=""><i class=""></i> <span class="nav-label">Logout</span></a>
                 </li>
-            </div>   
+            </div> 
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder_Principal" runat="server">
+    </asp:ContentPlaceHolder>  
 </asp:Content>
