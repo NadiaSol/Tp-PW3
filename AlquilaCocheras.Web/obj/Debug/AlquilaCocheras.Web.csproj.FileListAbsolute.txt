@@ -38,3 +38,6 @@ C:\Users\User\Documents\GitHub\Tp-PW3\AlquilaCocheras.Web\bin\Microsoft.CodeDom.
 C:\Users\User\Documents\GitHub\Tp-PW3\AlquilaCocheras.Web\obj\Debug\AlquilaCocheras.Web.csprojResolveAssemblyReference.cache
 C:\Users\User\Documents\GitHub\Tp-PW3\AlquilaCocheras.Web\obj\Debug\AlquilaCocheras.Web.dll
 C:\Users\User\Documents\GitHub\Tp-PW3\AlquilaCocheras.Web\obj\Debug\AlquilaCocheras.Web.pdb
+C:\Users\PaolaElizabeth\Documents\GitHub\Tp-PW3\Tp-PW3\AlquilaCocheras.Web\obj\Debug\AlquilaCocheras.Web.csprojResolveAssemblyReference.cache
+C:\Users\PaolaElizabeth\Documents\GitHub\Tp-PW3\Tp-PW3\AlquilaCocheras.Web\obj\Debug\AlquilaCocheras.Web.dll
+C:\Users\PaolaElizabeth\Documents\GitHub\Tp-PW3\Tp-PW3\AlquilaCocheras.Web\obj\Debug\AlquilaCocheras.Web.pdb
