@@ -16,7 +16,7 @@ namespace AlquilaCocheras.Web.propietarios
 
         protected void btnActualizar_Click(object sender, EventArgs e)
         {
-            ucPerfil1.TextoLabel.Text = "Actualizado!";
+            ucPerfil1.TextoLabel.Text = "Operacion Exitosa!";
         }
     }
 }
