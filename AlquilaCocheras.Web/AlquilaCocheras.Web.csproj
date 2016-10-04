@@ -92,12 +92,11 @@
     <Content Include="propietarios\perfil.aspx" />
     <Content Include="propietarios\reservas.aspx" />
     <Content Include="registracion.aspx" />
-<<<<<<< HEAD
-=======
+
     <Content Include="userControls\ucBuscadorCocheras.ascx" />
     <Content Include="userControls\ucFooter.ascx" />
     <Content Include="userControls\ucPerfil.ascx" />
->>>>>>> origin/master
+
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -207,8 +206,7 @@
     <Compile Include="registracion.aspx.designer.cs">
       <DependentUpon>registracion.aspx</DependentUpon>
     </Compile>
-<<<<<<< HEAD
-=======
+
     <Compile Include="userControls\ucBuscadorCocheras.ascx.cs">
       <DependentUpon>ucBuscadorCocheras.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -230,7 +228,6 @@
     <Compile Include="userControls\ucPerfil.ascx.designer.cs">
       <DependentUpon>ucPerfil.ascx</DependentUpon>
     </Compile>
->>>>>>> origin/master
   </ItemGroup>
   <ItemGroup>
     <Folder Include="imagenes\cocheras\" />
