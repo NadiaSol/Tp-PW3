@@ -11,7 +11,7 @@
 
     <%--Si el usuario no existe o si no coinciden las credenciales, mostrar mensaje "Usuario y/o Contraseña inválidos"--%>
     <asp:Label ID="lblResultado" runat="server"></asp:Label>
-    <asp:Button ID="btnLogin" runat="server" Text="Ingresar" ClientIDMode="Static" />
+    <asp:Button ID="btnLogin" runat="server" Text="Ingresar" ClientIDMode="Static" OnClick="btnLogin_Click" />
 
     <a href="/registracion.aspx">Registrarse como nuevo usuario.</a>
 </asp:Content>
