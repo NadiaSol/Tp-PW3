@@ -1,4 +1,5 @@
 ﻿<%@ Master Language="C#" MasterPageFile="~/MasterPages/Base/Base.Master" AutoEventWireup="true" CodeBehind="Anonimo.master.cs" Inherits="AlquilaCocheras.Web.MasterPages.Anonimo" %>
+<%@ Register Src="~/userControls/ucBuscadorCocheras.ascx" TagPrefix="uc1" TagName="ucBuscadorCocheras" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head_Base" runat="server">
     <asp:ContentPlaceHolder ID="ContentPlaceHolder_Head" runat="server">
     </asp:ContentPlaceHolder>    
