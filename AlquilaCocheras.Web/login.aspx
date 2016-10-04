@@ -5,6 +5,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder_Principal" runat="server">
     <asp:Label ID="label3" runat="server" Text="Email: "></asp:Label>
     <asp:TextBox ID="txtEmail" runat="server" ClientIDMode="Static"></asp:TextBox>
+    <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="txtEmail" ErrorMessage="Mail Inválido" ValidationExpression="\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
 
     <asp:Label ID="label2" runat="server" Text="Contraseña: "></asp:Label>
     <asp:TextBox ID="txtContrasenia" runat="server" TextMode="Password" ClientIDMode="Static"></asp:TextBox>
