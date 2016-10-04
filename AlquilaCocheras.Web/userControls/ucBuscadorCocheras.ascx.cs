@@ -13,5 +13,10 @@ namespace AlquilaCocheras.Web.userControls
         {
 
         }
+
+        protected void btnFiltrar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
