@@ -7,13 +7,18 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder_Principal" runat="server">
 
-    <uc1:ucBuscadorCocheras runat="server" id="ucBuscadorCocheras" />
+    <uc1:ucBuscadorCocheras runat="server" ID="ucBuscadorCocheras" />
     <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False">
         <Columns>
+            <asp:BoundField HeaderText="Precio" />
             <asp:BoundField HeaderText="Propietario" />
             <asp:DynamicField HeaderText="Total" />
-            <asp:ImageField>
+            <asp:ImageField HeaderImageUrl="~/imagenes/cocheras/cochera2.jpg">
             </asp:ImageField>
+
+            <asp:HyperLinkField Text="Reservar" />
+            <asp:TemplateField HeaderImageUrl="~/imagenes/cocheras/Customized Map.jpg" HeaderText="Mapa"></asp:TemplateField>
+            <asp:BoundField HeaderText="Puntuacion" />
 
         </Columns>
     </asp:GridView>

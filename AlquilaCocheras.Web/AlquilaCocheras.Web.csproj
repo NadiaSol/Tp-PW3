@@ -71,7 +71,9 @@
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="imagenes\cocheras\cochera.jpg" />
     <Content Include="imagenes\cocheras\cochera2.jpg" />
+    <Content Include="imagenes\cocheras\Customized Map.jpg" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\datepickers.js" />

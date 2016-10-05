@@ -1,5 +1,8 @@
 .vs
 AlquilaCocheras.Web/bin
 AlquilaCocheras.Web/obj
+
+AlquilaCocheras.Web\obj
+AlquilaCocheras.Web\bin
 ~$correcciones20162C.xlsx
 ~$guimiento del proyecto.doc
