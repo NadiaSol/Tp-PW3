@@ -58,13 +58,22 @@ namespace AlquilaCocheras.Web.clientes {
         protected global::System.Web.UI.WebControls.Label label3;
         
         /// <summary>
-        /// txtHorarioInicio control.
+        /// HoraInicial control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtHorarioInicio;
+        protected global::System.Web.UI.WebControls.DropDownList HoraInicial;
+        
+        /// <summary>
+        /// horainicio control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator horainicio;
         
         /// <summary>
         /// label1 control.
@@ -76,13 +85,22 @@ namespace AlquilaCocheras.Web.clientes {
         protected global::System.Web.UI.WebControls.Label label1;
         
         /// <summary>
-        /// txtHorarioFin control.
+        /// HoraFinal control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtHorarioFin;
+        protected global::System.Web.UI.WebControls.DropDownList HoraFinal;
+        
+        /// <summary>
+        /// horadefin control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator horadefin;
         
         /// <summary>
         /// lblUbicacion control.
