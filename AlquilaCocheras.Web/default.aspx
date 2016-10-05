@@ -8,6 +8,15 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder_Principal" runat="server">
 
     <uc1:ucBuscadorCocheras runat="server" id="ucBuscadorCocheras" />
+    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False">
+        <Columns>
+            <asp:BoundField HeaderText="Propietario" />
+            <asp:DynamicField HeaderText="Total" />
+            <asp:ImageField>
+            </asp:ImageField>
+
+        </Columns>
+    </asp:GridView>
     <%--    LISTADO  (gridview, repeater o datalist)
     Por cada disponibilidad se deberá mostrar la siguiente información:
     precio, 
