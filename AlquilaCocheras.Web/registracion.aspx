@@ -3,7 +3,6 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder_Head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder_Principal" runat="server">
-<<<<<<< HEAD
     <asp:Label ID="label1" runat="server" Text="Nombre: "></asp:Label>
     <asp:TextBox ID="txtNombre" runat="server" ClientIDMode="Static"></asp:TextBox>
 
@@ -26,9 +25,8 @@
 
     <asp:Label ID="lblResultado" runat="server"></asp:Label>
     <asp:Button ID="btnRegistrarUsuario" runat="server" Text="Registrar usuario" ClientIDMode="Static" />
-=======
+
     <uc1:ucPerfil ID="ucPerfil1" runat="server" />
     <br />
-    <asp:Button ID="btnRegistrarUsuario" runat="server" Text="Registrar usuario" ClientIDMode="Static" OnClick="btnRegistrarUsuario_Click" />
->>>>>>> origin/master
+
 </asp:Content>

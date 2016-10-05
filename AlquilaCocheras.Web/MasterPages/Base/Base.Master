@@ -1,14 +1,8 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Base.master.cs" Inherits="AlquilaCocheras.Web.MasterPages.Base" %>
 
-<<<<<<< HEAD
-=======
+<
 <%@ Register Src="~/userControls/ucFooter.ascx" TagPrefix="uc1" TagName="ucFooter" %>
 
-
-
-
-
->>>>>>> origin/master
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">

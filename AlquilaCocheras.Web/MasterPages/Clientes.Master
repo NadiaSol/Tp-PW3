@@ -7,10 +7,7 @@
     </asp:ContentPlaceHolder>    
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder_Principal_Base" runat="server">
-<<<<<<< HEAD
-     <asp:ContentPlaceHolder ID="ContentPlaceHolder_Principal" runat="server">
-    </asp:ContentPlaceHolder>    
-=======
+
          <div>
                 <li class="">
                     <a href="/clientes/reservar.aspx"><i class=""></i> <span class="nav-label">Reservar cochera</span> </a>

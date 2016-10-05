@@ -71,6 +71,7 @@
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="imagenes\cocheras\cochera2.jpg" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\npm.js" />
@@ -92,11 +93,9 @@
     <Content Include="propietarios\perfil.aspx" />
     <Content Include="propietarios\reservas.aspx" />
     <Content Include="registracion.aspx" />
-
     <Content Include="userControls\ucBuscadorCocheras.ascx" />
     <Content Include="userControls\ucFooter.ascx" />
     <Content Include="userControls\ucPerfil.ascx" />
-
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -206,7 +205,6 @@
     <Compile Include="registracion.aspx.designer.cs">
       <DependentUpon>registracion.aspx</DependentUpon>
     </Compile>
-
     <Compile Include="userControls\ucBuscadorCocheras.ascx.cs">
       <DependentUpon>ucBuscadorCocheras.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -228,11 +226,8 @@
     <Compile Include="userControls\ucPerfil.ascx.designer.cs">
       <DependentUpon>ucPerfil.ascx</DependentUpon>
     </Compile>
-
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="imagenes\cocheras\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="css\bootstrap-theme.css.map" />
     <Content Include="css\bootstrap-theme.min.css.map" />

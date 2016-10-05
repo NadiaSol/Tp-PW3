@@ -16,7 +16,7 @@ namespace AlquilaCocheras.Web
 
         protected void btnRegistrarUsuario_Click(object sender, EventArgs e)
         {
-            ucPerfil1.TextoLabel.Text = "Registración exitosa, diríjase al login";
+            //ucPerfil1.TextoLabel.Text = "Registración exitosa, diríjase al login";
         }
     }
 }
