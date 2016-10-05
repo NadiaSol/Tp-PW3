@@ -73,6 +73,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\datepickers.js" />
     <Content Include="js\npm.js" />
     <Content Include="packages.config" />
     <Content Include="MasterPages\Base\Base.Master" />
@@ -92,11 +93,9 @@
     <Content Include="propietarios\perfil.aspx" />
     <Content Include="propietarios\reservas.aspx" />
     <Content Include="registracion.aspx" />
-
     <Content Include="userControls\ucBuscadorCocheras.ascx" />
     <Content Include="userControls\ucFooter.ascx" />
     <Content Include="userControls\ucPerfil.ascx" />
-
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -206,7 +205,6 @@
     <Compile Include="registracion.aspx.designer.cs">
       <DependentUpon>registracion.aspx</DependentUpon>
     </Compile>
-
     <Compile Include="userControls\ucBuscadorCocheras.ascx.cs">
       <DependentUpon>ucBuscadorCocheras.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

@@ -1,23 +1,20 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Base.master.cs" Inherits="AlquilaCocheras.Web.MasterPages.Base" %>
-
-<<<<<<< HEAD
-=======
 <%@ Register Src="~/userControls/ucFooter.ascx" TagPrefix="uc1" TagName="ucFooter" %>
 
-
-
-
-
->>>>>>> origin/master
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
-    <link href="../../css/bootstrap-theme.min.css" rel="stylesheet" />
-    <link href="../../css/bootstrap.min.css" rel="stylesheet" />
-    <script src="../../js/bootstrap.min.js"></script>
-    <script src="../../js/npm.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../css/bootstrap-theme.min.css"  />
+    <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css"  />
+    <link rel="stylesheet" type="text/css" href="../../css/jquery.timepicker.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/bootstrap-datepicker.css" />
+    <script type="text/javascript" src="../../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../js/npm.js"></script>
+    <script type="text/javascript" src="../../js/bootstrap-datepicker.js"></script>
+    <script type="text/javascript" src="../../js/jquery.timepicker.js"></script>
+    <script type="text/javascript" src="../../js/Datepair.js"></script>
 
     <asp:ContentPlaceHolder ID="head_Base" runat="server">
     </asp:ContentPlaceHolder>
@@ -26,7 +23,6 @@
     <form id="form1" runat="server">
     <div>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder_Principal_Base" runat="server">
-        
         </asp:ContentPlaceHolder>
     </div>
     </form>

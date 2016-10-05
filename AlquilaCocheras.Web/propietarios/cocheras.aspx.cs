@@ -13,5 +13,10 @@ namespace AlquilaCocheras.Web.propietarios
         {
 
         }
+
+        protected void btnCrearCochera_Click(object sender, EventArgs e)
+        {
+            lblResultado.Text = "Operacion Exitosa!";
+        }
     }
 }

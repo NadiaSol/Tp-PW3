@@ -7,22 +7,42 @@
     </asp:ContentPlaceHolder>    
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder_Principal_Base" runat="server">
-<<<<<<< HEAD
-     <asp:ContentPlaceHolder ID="ContentPlaceHolder_Principal" runat="server">
-    </asp:ContentPlaceHolder>    
-=======
-         <div>
-                <li class="">
-                    <a href="/clientes/reservar.aspx"><i class=""></i> <span class="nav-label">Reservar cochera</span> </a>
-                </li>
-                <li class="">
-                    <a href="/clientes/reservas.aspx"><i class=""></i> <span class="nav-label">Mis reservas</span></a>
-                </li> 
-                <li class="">
-                    <a href=""><i class=""></i> <span class="nav-label">Logout</span></a>
-                </li>
-            </div> 
-    <asp:ContentPlaceHolder ID="ContentPlaceHolder_Principal" runat="server">
-    </asp:ContentPlaceHolder>  
->>>>>>> origin/master
+    <div class="row">
+		<div class="col-md-12">
+            <nav class="navbar navbar-default" role="navigation">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#">Parking On Demand</a>
+					<p class="navbar-brand">Cliente</p>
+				</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="">
+                            <a href="/clientes/reservar.aspx"><i class=""></i> <span class="nav-label">Reservar cochera</span> </a>
+                        </li>
+                        <li class="">
+                            <a href="/clientes/reservas.aspx"><i class=""></i> <span class="nav-label">Mis reservas</span></a>
+                        </li> 
+                        <li class="">
+                            <a href=""><i class=""></i> <span class="nav-label">Logout</span></a>
+                        </li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="#">Logout</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+	</div>
+    <div class="row">
+		<div class="col-md-1">
+		</div>
+		<div class="col-md-10">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder_Principal" runat="server">
+            </asp:ContentPlaceHolder>
+		</div>
+		<div class="col-md-1">
+		</div>
+	</div>  
 </asp:Content>

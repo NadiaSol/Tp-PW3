@@ -13,13 +13,10 @@ namespace AlquilaCocheras.Web.propietarios
         {
 
         }
-<<<<<<< HEAD
-=======
 
         protected void btnActualizar_Click(object sender, EventArgs e)
         {
-            ucPerfil1.TextoLabel.Text = "Operacion Exitosa!";
+            ucPerfil.TextoLabel.Text = "Operacion Exitosa!";
         }
->>>>>>> origin/master
     }
 }
