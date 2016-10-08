@@ -34,6 +34,6 @@
     y el link a confirmar reserva que esta agregado abajo como asp:HyperLink, 
         donde deberán cambiarle dinamicamente el link y ponerle el idcochera correspondiente
     --%>
-    <asp:HyperLink ID="aConfirmar" runat="server" ClientIDMode="Static" NavigateUrl="/clientes/confirmar-reserva.aspx?idcochera=123">Reservar</asp:HyperLink>
+    <asp:HyperLink ID="aConfirmar"  class="btn btn-primary btn-lg active" runat="server" ClientIDMode="Static" NavigateUrl="/clientes/confirmar-reserva.aspx?idcochera=123">Reservar</asp:HyperLink>
 </asp:Content>
 
