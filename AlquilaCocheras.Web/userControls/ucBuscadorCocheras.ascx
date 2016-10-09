@@ -28,5 +28,5 @@
     </div>
 </form>
 <%--si no se encuentran resultados mostrar mensaje "No se encontraron resultados"--%>
-<asp:Label ID="lblResultado" runat="server" Visible="False">No se encontraron resultados</asp:Label>
+<asp:Label class="bg-danger" ID="lblResultado" runat="server" Visible="False" >No se encontraron resultados</asp:Label>
 <%--Fin User Control--%>

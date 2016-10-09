@@ -16,7 +16,15 @@ namespace AlquilaCocheras.Web.userControls
 
         protected void btnFiltrar_Click(object sender, EventArgs e)
         {
-            lblResultado.Visible = true;
+            if (txtUbicacion.Text == "San Justo")
+            {
+                lblResultado.Visible = true;
+            }
+            else if (txtUbicacion.Text == "Haedo")
+            {
+                lblResultado.Visible = false;
+            }
+
         }
     }
 }

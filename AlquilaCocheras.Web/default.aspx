@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPages/Anonimo.Master" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="AlquilaCocheras.Web._default" %>
+﻿<%@ Page Title="Index"  EnableEventValidation="false" Language="C#" MasterPageFile="~/MasterPages/Anonimo.Master" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="AlquilaCocheras.Web._default" %>
 
 <%@ Register Src="~/userControls/ucBuscadorCocheras.ascx" TagPrefix="uc1" TagName="ucBuscadorCocheras" %>
 

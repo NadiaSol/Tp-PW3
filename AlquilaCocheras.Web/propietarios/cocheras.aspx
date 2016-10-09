@@ -56,7 +56,7 @@
 
     <asp:RequiredFieldValidator ID="reqMetros" runat="server" ControlToValidate="txtMetrosCuadrados" Display="Dynamic" ErrorMessage="Campo Requerido" ForeColor="Red"></asp:RequiredFieldValidator>
 &nbsp;<asp:RegularExpressionValidator ID="valEntero" runat="server" ControlToValidate="txtMetrosCuadrados" ErrorMessage="Solo formato entero" ForeColor="Red" ValidationExpression="^[1-9]\d*$"></asp:RegularExpressionValidator>
-&nbsp;<asp:RangeValidator ID="valMetros" runat="server" ControlToValidate="txtMetrosCuadrados" ErrorMessage="No puede ser menor a 5 mt2" ForeColor="Red" MaximumValue="9999999999999999999999999999999999999999999999999" MinimumValue="5"></asp:RangeValidator>
+&nbsp;<asp:RangeValidator ID="valMetros" runat="server" ControlToValidate="txtMetrosCuadrados" ErrorMessage="No puede ser menor a 5 mt2" ForeColor="Red" type="Integer" MaximumValue="999999" MinimumValue="5"></asp:RangeValidator>
     <br />
 
     <asp:Label ID="label8" runat="server" Text="Tipo Vehículo: "></asp:Label>
@@ -77,7 +77,7 @@
 
     <asp:RequiredFieldValidator ID="reqPrecio" runat="server" ControlToValidate="txtPrecioHora" Display="Dynamic" ErrorMessage="Campo Requerido" ForeColor="Red"></asp:RequiredFieldValidator>
 &nbsp;<asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="txtPrecioHora" ErrorMessage="Solo formato decimal" ForeColor="Red" ValidationExpression="^\d+\,[0-9]{2}$"></asp:RegularExpressionValidator>
-&nbsp;<asp:RangeValidator ID="RangeValidator1" runat="server" ControlToValidate="txtPrecioHora" ErrorMessage="Precio mayor a 0" ForeColor="Red" MaximumValue="9999999999999999999999999999999999999999999999999" MinimumValue="1" Type="Integer"></asp:RangeValidator>
+&nbsp;<asp:RangeValidator ID="RangeValidator1" runat="server" ControlToValidate="txtPrecioHora" ErrorMessage="Precio mayor a 0" ForeColor="Red" MaximumValue="999999999" MinimumValue="1" Type="Integer"></asp:RangeValidator>
     <br />
 
     <asp:Label ID="label10" runat="server" Text="Foto: "></asp:Label>

@@ -15,26 +15,37 @@ namespace AlquilaCocheras.Web
         }
 
         protected void btnLogin_Click(object sender, EventArgs e)
-        {
-            if (txtEmail.Text == "cliente@gmail.com" && txtContrasenia.Text == "Password1")
-            {
-                Response.Redirect("/clientes/reservas.aspx", true);
 
+        {
+
+            string mail = txtEmail.Text; //leemos el contenido de cada control edit
+            string contraseña = txtContrasenia.Text;
+
+            if (mail == "cliente@gmail.com" && contraseña == "Password1")
+            {
+                Session["cliente"] = true;
+
+                Response.Redirect("/clientes/reservas.aspx", true);
             }
             else
             {
-                lblResultado.Text = "Usuario o Contrasenia incorrecto";
+                lblResultado.Text = "Datos incorrectos. Intentenlo de nuevo por favor.";
             }
 
-            if (txtEmail.Text == "propietario@gmail.com" && txtContrasenia.Text == "Password1")
+            if (mail == "propietario@gmail.com" && contraseña == "Password1")
             {
+
+                Session["propietario"] = true;
                 Response.Redirect("/propietarios/reservas.aspx", true);
 
             }
+
             else
             {
-                lblResultado.Text = "Usuario o Contrasenia incorrecto";
+                lblResultado.Text = "Datos incorrectos. Intentenlo de nuevo por favor.";
             }
+
         }
+  
     }
 }
